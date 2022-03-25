@@ -26,6 +26,9 @@
                 <mxCell id="kIHPj6zRgX1InL4mbEAz-1" value="Number game" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="270" y="80" width="120" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kIHPj6zRgX1InL4mbEAz-2" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="kIHPj6zRgX1InL4mbEAz-2" value="Process" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="270" y="200" width="120" height="60" as="geometry"/>
                 </mxCell>
@@ -52,14 +55,8 @@
                 <mxCell id="kIHPj6zRgX1InL4mbEAz-16" value="Show answer accordingly&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="520" y="320" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="check if user input &amp;gt; 0, number &amp;lt; 0, or 0&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="5" value="check if user input &amp;gt; 0, number &amp;lt; 0, or 0&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="270" y="340" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="kIHPj6zRgX1InL4mbEAz-2" target="5">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="330" y="440" as="targetPoint"/>
-                        <mxPoint x="330" y="260" as="sourcePoint"/>
-                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
