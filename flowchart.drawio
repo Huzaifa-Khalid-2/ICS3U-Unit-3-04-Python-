@@ -95,7 +95,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="5gCrOAnoiJWtTDMlkqBs-44" value="print (&quot;number_&lt;br&gt;inserted_by_user is positive&quot;&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                <mxCell id="5gCrOAnoiJWtTDMlkqBs-44" value="print (&quot;I have no clue&quot;)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
                     <mxGeometry x="728" y="460" width="156" height="70" as="geometry"/>
                 </mxCell>
             </root>
