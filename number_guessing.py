@@ -2,11 +2,11 @@
 
 # Created by: Huzaifa
 # Created on: March 2022
-# This function takes a random integer and checks if it is 
+# This function takes a random integer and checks if its
 # >0/<0/==0
 
 def main():
-    # this function checks if the number is >0/<0/==0 
+    # this function checks if the number is >0/<0/==0
 
     # input
     number = int(input("Enter any integer: "))
