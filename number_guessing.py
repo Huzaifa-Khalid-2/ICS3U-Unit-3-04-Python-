@@ -2,12 +2,10 @@
 
 # Created by: Huzaifa
 # Created on: March 2022
-# This function takes a random integer between 0-9
-# and tells the user if they guessed corretly
+# This function takes a random integer and tells the user if its positive or negative 
 
 def main():
-    # this function takes a random integer between 0-9
-    # and tells the user if they guessed corretly
+    # this function takes a random and tells the user if its positive or negative
 
     # input
     number = int(input("Insert any integer: "))
