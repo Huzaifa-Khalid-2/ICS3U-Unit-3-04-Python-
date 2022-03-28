@@ -2,25 +2,27 @@
 
 # Created by: Huzaifa
 # Created on: March 2022
-# This function takes a random integer and tells the user if its positive or negative 
+# This function takes a random integer and checks if it is 
+# >0/<0/==0
 
 def main():
-    # this function takes a random and tells the user if its positive or negative
+    # this function checks if the number is >0/<0/==0 
 
     # input
-    number = int(input("Insert any integer: "))
+    number = int(input("Enter any integer: "))
+    print("")
 
     # process and output
-    print("")
     if number > 0:
-        print("You have a positive number")
+        print("you have a positive number")
     elif number < 0:
-        print("You have a negative number")
-    elif number == 0 :
-      print("Your number is 0")
+        print("you have a negative number.")
+    elif number == 0:
+        print("Your number is 0.")
     else:
         print("I have no clue")
     print("\nDone.")
+
 
 if __name__ == "__main__":
     main()
