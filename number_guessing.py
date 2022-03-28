@@ -5,25 +5,24 @@
 # This function takes a random integer between 0-9
 # and tells the user if they guessed corretly
 
-import random
-
-
 def main():
     # this function takes a random integer between 0-9
     # and tells the user if they guessed corretly
 
     # input
-    user_guess = int(input("Insert any number between 0-9 (integers): "))
+    number = int(input("Insert any integer: "))
 
     # process and output
     print("")
-    if user_guess == random.randint(1, 9):
-        print("Hooray you guessed correctly !! :)")
+    if number > 0:
+        print("You have a positive number")
+    elif number < 0:
+        print("You have a negative number")
+    elif number == 0 :
+      print("Your number is 0")
     else:
-        print("Oh No!!! guessed incorrectly :(")
-
+        print("I have no clue")
     print("\nDone.")
-
 
 if __name__ == "__main__":
     main()
